@@ -6,7 +6,7 @@ An end-to-end data analytics project focused on understanding customer shopping 
 
 ## 📌 Overview
 
-This project analyzes **3,900 purchase records across multiple product categories** to identify customer behavior patterns and generate actionable business insights. The workflow covers data preparation and exploratory analysis in Python, business analysis using SQL Server, and interactive visualization through Power BI.
+This project analyzes **3,900 purchase records across multiple product categories** to identify customer behavior patterns and generate actionable business insights. The workflow covers data preparation and exploratory analysis in Python, business analysis using SQL Server, and interactive visualization through Tableau.
 
 The main objective is to understand how customer demographics, purchasing behavior, discounts, product categories, subscriptions, and other factors influence sales and customer engagement.
 
@@ -42,8 +42,8 @@ The dataset initially contained **37 missing values in the Review Rating column*
 | ---------------------- | ------------------------------------------------- |
 | **Python**             | Data loading, cleaning, EDA & feature engineering |
 | **Pandas**             | Data manipulation and analysis                    |
-| **SQL Server / T-SQL** | Business analysis and querying                    |
-| **Power BI**           | Interactive dashboard and data visualization      |
+| **SQL Server / PostgreSQL** | Business analysis and querying                    |
+| **Tableau**           | Interactive dashboard and data visualization      |
 | **GitHub**             | Version control and project documentation         |
 
 ## 🔄 Project Workflow
@@ -66,7 +66,7 @@ The following preprocessing steps were performed:
 
 ### 3. SQL Server Analysis
 
-The cleaned dataset was analyzed using **SQL Server and T-SQL** to answer business-focused questions, including:
+The cleaned dataset was analyzed using **SQL Server and PostgreSQL** to answer business-focused questions, including:
 
 * Revenue by gender
 * High-spending customers using discounts
@@ -81,7 +81,7 @@ The cleaned dataset was analyzed using **SQL Server and T-SQL** to answer busine
 
 ### 4. Power BI Dashboard
 
-An interactive **Power BI dashboard** was developed to present the analysis visually and allow users to explore customer behavior through different filters and KPIs.
+An interactive **Tableau dashboard** was developed to present the analysis visually and allow users to explore customer behavior through different filters and KPIs.
 
 <p align="center">
   <img src="images/customer_behaviour_dashboard.png" alt="Customer Behavior Dashboard" width="900">
@@ -174,9 +174,9 @@ Run the notebook to:
 customer_behaviour_sqlserver_queries.sql
 ```
 
-4. Run the T-SQL queries to reproduce the business analysis.
+4. Run the PostgreSQL queries to reproduce the business analysis.
 
-### Step 3 — Power BI
+### Step 3 — Tableau
 
 1. Open:
 
@@ -184,19 +184,11 @@ customer_behaviour_sqlserver_queries.sql
 customer_behaviour_dashboard_2026.pbix
 ```
 
-2. Connect Power BI to the SQL Server database.
+2. Connect Tableau to the SQL Server database.
 3. Refresh the dataset if required.
 4. Explore the interactive dashboard.
 
-## 📚 Project Reference & Acknowledgement
 
-This project was **inspired by and adapted from the customer shopping behavior analytics project by Amlan Mohanty**. The original project served as a reference for the overall analytics workflow, project structure, and dashboard/analysis approach. The implementation in this repository has been adapted and worked through using **SQL Server/T-SQL and Power BI**, along with my own analysis, documentation, and project presentation.
-
-Credit and appreciation to **Amlan Mohanty** for making the original project available as a learning reference.
-
-## 👤 Author
-
-**Khushi Shah**
 
 Data Analytics | Python | SQL | Power BI
 

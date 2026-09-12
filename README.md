@@ -1,6 +1,6 @@
 # 📊 Customer Shopping Behavior Analysis
 
-**Python | SQL Server | Power BI**
+**Python | SQL Server | Tableau**
 
 An end-to-end data analytics project focused on understanding customer shopping behavior, purchasing patterns, product preferences, customer segments, discounts, subscriptions, and revenue trends.
 

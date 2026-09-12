@@ -79,7 +79,7 @@ The cleaned dataset was analyzed using **SQL Server and PostgreSQL** to answer b
 * Repeat buyers and subscription behavior
 * Revenue by age group
 
-### 4. Power BI Dashboard
+### 4. Tableau Dashboard
 
 An interactive **Tableau dashboard** was developed to present the analysis visually and allow users to explore customer behavior through different filters and KPIs.
 

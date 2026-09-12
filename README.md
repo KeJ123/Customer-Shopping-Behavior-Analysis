@@ -84,7 +84,7 @@ The cleaned dataset was analyzed using **SQL Server and PostgreSQL** to answer b
 An interactive **Tableau dashboard** was developed to present the analysis visually and allow users to explore customer behavior through different filters and KPIs.
 
 <p align="center">
-  <img src="images/customer_behaviour_dashboard.png" alt="Customer Behavior Dashboard" width="900">
+  <img src="customer_behaviour_dashboard.png" alt="Customer Behavior Dashboard" width="900">
 </p>
 
 ## 📊 Dashboard
